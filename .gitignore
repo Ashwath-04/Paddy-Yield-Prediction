@@ -1,0 +1,17 @@
+.venv/
+__pycache__/
+*.pyc
+.pytest_cache/
+.ipynb_checkpoints/
+# full model zoos are large (~85 MB) and regenerable by train.py
+models/models_*.joblib
+
+# --- Portfolio export policy: no datasets, no trained weights in git ---
+data/**
+!data/**/
+!data/**/README.md
+!data/**/.gitkeep
+models/*.joblib
+*.pt
+*.npz
+.venv/

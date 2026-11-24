@@ -1,0 +1,16 @@
+hectares,agriblock,variety,soil_type,nursery_type,actual,predicted,residual,ape_%
+6,Sankarapuram,ponmani,alluvial,dry,5941.0,5941.2,-0.2,0.0
+5,Kallakurichi,delux ponni,clay,dry,6227.0,6228.0,-1.0,0.0
+3,Kallakurichi,delux ponni,clay,dry,5757.0,5755.3,1.7,0.0
+5,Kurinjipadi,CO_43,clay,dry,6213.0,6215.0,-2.0,0.0
+5,Cuddalore,ponmani,clay,dry,6122.0,6124.2,-2.2,0.0
+5,Sankarapuram,delux ponni,clay,wet,6227.0,6230.5,-3.5,0.1
+5,Chinnasalem,delux ponni,alluvial,dry,6227.0,6222.8,4.2,0.1
+5,Kallakurichi,ponmani,alluvial,wet,6161.0,6166.5,-5.5,0.1
+2,Chinnasalem,delux ponni,clay,wet,5754.0,5747.6,6.4,0.1
+4,Sankarapuram,CO_43,clay,wet,6122.0,6128.6,-6.6,0.1
+4,Chinnasalem,ponmani,clay,wet,6122.0,6114.3,7.7,0.1
+5,Kallakurichi,ponmani,alluvial,dry,6161.0,6153.2,7.8,0.1
+4,Kallakurichi,ponmani,clay,wet,6122.0,6129.9,-7.9,0.1
+4,Cuddalore,delux ponni,clay,wet,6115.0,6106.8,8.2,0.1
+5,Cuddalore,delux ponni,clay,dry,6193.0,6201.7,-8.7,0.1

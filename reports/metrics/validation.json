@@ -1,0 +1,51 @@
+{
+  "shape": [
+    2789,
+    45
+  ],
+  "n_predictors_in_source": 44,
+  "missing_values_total": 0,
+  "invalid_values": {
+    "negative_values": 0,
+    "rh_out_of_0_100": 0,
+    "tmin_gt_tmax": 0,
+    "zero_or_negative_yield": 0,
+    "zero_hectares": 0,
+    "unknown_wind_direction_codes": []
+  },
+  "duplicates": {
+    "n_rows": 2789,
+    "exact_duplicate_rows": 451,
+    "rows_after_dedup": 2338,
+    "unique_feature_configurations": 410,
+    "configs_with_conflicting_targets": 375
+  },
+  "target_yield_kg": {
+    "count": 2789.0,
+    "mean": 22517.73,
+    "std": 9199.66,
+    "min": 5410.0,
+    "25%": 16389.0,
+    "50%": 24636.0,
+    "75%": 31035.0,
+    "max": 38814.0
+  },
+  "target_yield_kg_skew": -0.322461934522398,
+  "target_yield_kg_per_ha": {
+    "count": 2338.0,
+    "mean": 5985.0,
+    "std": 289.35,
+    "min": 5410.0,
+    "25%": 5780.0,
+    "50%": 5964.0,
+    "75%": 6227.0,
+    "max": 6469.0
+  },
+  "duplicates_after_dedup": {
+    "n_rows": 2338,
+    "exact_duplicate_rows": 0,
+    "rows_after_dedup": 2338,
+    "unique_feature_configurations": 410,
+    "configs_with_conflicting_targets": 375
+  }
+}

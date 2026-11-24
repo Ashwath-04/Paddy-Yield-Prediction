@@ -1,0 +1,168 @@
+{
+  "raw": {
+    "input_qty_unique_values_per_hectare": {
+      "seed_rate_kg": 1,
+      "lp_mainfield_t": 1,
+      "nursery_area_cents": 1,
+      "lp_nursery_t": 1,
+      "dap_20d": 1,
+      "thiobencarb_28d": 1,
+      "urea_40d": 1,
+      "potash_50d": 1,
+      "micronutrients_70d": 1,
+      "pesticide_60d_ml": 1
+    },
+    "corr_yield_kg_vs_hectares": 0.9946485294798656,
+    "r2_yield_kg_from_hectares_linear": 0.989325697196459,
+    "corr_trash_vs_yield_kg": 0.9575959144365851,
+    "trash_per_ha_by_variety": {
+      "CO_43": {
+        "90.0": 732
+      },
+      "delux ponni": {
+        "80.0": 995,
+        "100.0": 1
+      },
+      "ponmani": {
+        "100.0": 1061
+      }
+    },
+    "n_distinct_weather_profiles": 6,
+    "weather_cols_determined_by_agriblock": 28,
+    "n_weather_cols": 28,
+    "rain_plus_ai_unique_per_stage": {
+      "d0_30": [
+        40.0
+      ],
+      "d30_50": [
+        458.0
+      ],
+      "d51_70": [
+        417.0
+      ],
+      "d71_105": [
+        125.0
+      ]
+    },
+    "temporal_columns_present": [],
+    "per_ha_within_config_variance_share": 0.39304074257249266,
+    "per_ha_r2_ceiling_estimate": 0.6069592574275073,
+    "top_corr_with_yield_kg": {
+      "seed_rate_kg": 0.9946,
+      "lp_mainfield_t": 0.9946,
+      "micronutrients_70d": 0.9946,
+      "pesticide_60d_ml": 0.9946,
+      "potash_50d": 0.9946,
+      "nursery_area_cents": 0.9946,
+      "dap_20d": 0.9946,
+      "urea_40d": 0.9946,
+      "hectares": 0.9946,
+      "lp_nursery_t": 0.9946,
+      "thiobencarb_28d": 0.9946,
+      "trash_bundles": 0.9576,
+      "wind_kn_d1_30": 0.0202,
+      "tmin_d1_30": 0.0194,
+      "wind_kn_d61_90": 0.0185
+    },
+    "top_corr_with_yield_per_ha": {
+      "seed_rate_kg": 0.6096,
+      "lp_mainfield_t": 0.6096,
+      "micronutrients_70d": 0.6096,
+      "urea_40d": 0.6096,
+      "pesticide_60d_ml": 0.6096,
+      "nursery_area_cents": 0.6096,
+      "potash_50d": 0.6096,
+      "dap_20d": 0.6096,
+      "hectares": 0.6096,
+      "lp_nursery_t": 0.6096,
+      "thiobencarb_28d": 0.6096,
+      "trash_bundles": 0.5644,
+      "wind_kn_d1_30": 0.0331,
+      "wind_kn_d61_90": 0.0245,
+      "tmax_d61_90": 0.0242
+    }
+  },
+  "deduplicated": {
+    "input_qty_unique_values_per_hectare": {
+      "seed_rate_kg": 1,
+      "lp_mainfield_t": 1,
+      "nursery_area_cents": 1,
+      "lp_nursery_t": 1,
+      "dap_20d": 1,
+      "thiobencarb_28d": 1,
+      "urea_40d": 1,
+      "potash_50d": 1,
+      "micronutrients_70d": 1,
+      "pesticide_60d_ml": 1
+    },
+    "corr_yield_kg_vs_hectares": 0.9943389943679958,
+    "r2_yield_kg_from_hectares_linear": 0.9887100357207571,
+    "corr_trash_vs_yield_kg": 0.9574530982411769,
+    "trash_per_ha_by_variety": {
+      "CO_43": {
+        "90.0": 611
+      },
+      "delux ponni": {
+        "80.0": 831,
+        "100.0": 1
+      },
+      "ponmani": {
+        "100.0": 895
+      }
+    },
+    "n_distinct_weather_profiles": 6,
+    "weather_cols_determined_by_agriblock": 28,
+    "n_weather_cols": 28,
+    "rain_plus_ai_unique_per_stage": {
+      "d0_30": [
+        40.0
+      ],
+      "d30_50": [
+        458.0
+      ],
+      "d51_70": [
+        417.0
+      ],
+      "d71_105": [
+        125.0
+      ]
+    },
+    "temporal_columns_present": [],
+    "per_ha_within_config_variance_share": 0.40815671228482403,
+    "per_ha_r2_ceiling_estimate": 0.591843287715176,
+    "top_corr_with_yield_kg": {
+      "nursery_area_cents": 0.9943,
+      "dap_20d": 0.9943,
+      "micronutrients_70d": 0.9943,
+      "pesticide_60d_ml": 0.9943,
+      "potash_50d": 0.9943,
+      "lp_mainfield_t": 0.9943,
+      "hectares": 0.9943,
+      "seed_rate_kg": 0.9943,
+      "lp_nursery_t": 0.9943,
+      "thiobencarb_28d": 0.9943,
+      "urea_40d": 0.9943,
+      "trash_bundles": 0.9575,
+      "wind_kn_d61_90": 0.0254,
+      "wind_kn_d1_30": 0.0204,
+      "tmax_d91_120": 0.0196
+    },
+    "top_corr_with_yield_per_ha": {
+      "potash_50d": 0.5949,
+      "hectares": 0.5949,
+      "lp_nursery_t": 0.5949,
+      "urea_40d": 0.5949,
+      "pesticide_60d_ml": 0.5949,
+      "thiobencarb_28d": 0.5949,
+      "nursery_area_cents": 0.5949,
+      "dap_20d": 0.5949,
+      "micronutrients_70d": 0.5949,
+      "seed_rate_kg": 0.5949,
+      "lp_mainfield_t": 0.5949,
+      "trash_bundles": 0.5501,
+      "wind_kn_d1_30": 0.0307,
+      "tmax_d1_30": 0.0287,
+      "wind_kn_d61_90": 0.0279
+    }
+  }
+}

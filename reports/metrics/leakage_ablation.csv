@@ -1,0 +1,11 @@
+target,setting,n_rows,cv_R2,cv_RMSE,cv_MAE
+total,raw incl. duplicates + trash (naive),2789,0.9917,835.0512,596.9199
+total,deduplicated + trash,2338,0.9905,900.5056,648.7318
+total,"deduplicated, no trash (all features)",2338,0.9905,898.5019,647.6258
+total,compact: hectares+agriblock+variety+soil+nursery,2338,0.9907,889.5688,642.9338
+total,hectares only (OLS),2338,0.9887,983.3141,742.6209
+per_ha,raw incl. duplicates + trash (naive),2789,0.4875,202.5537,157.9712
+per_ha,deduplicated + trash,2338,0.4301,217.9454,172.2071
+per_ha,"deduplicated, no trash (all features)",2338,0.4348,217.0853,171.4342
+per_ha,compact: hectares+agriblock+variety+soil+nursery,2338,0.4475,214.6516,170.009
+per_ha,hectares only (OLS),2338,0.3522,232.5676,184.0705

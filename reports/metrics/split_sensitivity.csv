@@ -1,0 +1,7 @@
+target,scheme,cv_R2,cv_R2_std,cv_RMSE
+total,Random 5-fold,0.9911,0.0012,873.8117
+total,Leave-one-agriblock-out (6 folds),0.9911,0.0017,867.8851
+total,Group by management config (5 folds),0.9909,0.0004,882.8694
+per_ha,Random 5-fold,0.4501,0.0593,212.8858
+per_ha,Leave-one-agriblock-out (6 folds),0.4832,0.062,206.3207
+per_ha,Group by management config (5 folds),0.4534,0.0386,212.1113

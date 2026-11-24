@@ -1,0 +1,108 @@
+{
+  "total": {
+    "best_model_by_cv": "LightGBM (Optuna)",
+    "test_metrics": {
+      "R2": 0.9910077083345209,
+      "RMSE": 880.6401400199799,
+      "MAE": 623.8696269429429,
+      "MAPE_%": 2.7735904152046493
+    },
+    "shap_model": "LightGBM (Optuna)",
+    "shap_top_features": {
+      "hectares": 8035.213,
+      "variety=ponmani": 65.879,
+      "variety=delux ponni": 57.932,
+      "soil_type=clay": 28.563,
+      "wind_kn_d1_30": 21.968,
+      "tmax_d61_90": 18.907,
+      "tmin_d1_30": 11.262,
+      "nursery_type=wet": 10.604,
+      "variety=CO_43": 6.415,
+      "rain_d0_30_mm": 6.224
+    },
+    "shap_top_source_variables_share_%": {
+      "hectares": 97.05,
+      "variety": 1.57,
+      "soil_type": 0.34,
+      "wind_kn_d1_30": 0.27,
+      "tmax_d61_90": 0.23,
+      "tmin_d1_30": 0.14,
+      "nursery_type": 0.13,
+      "rain_d0_30_mm": 0.08,
+      "rh_d1_30": 0.06,
+      "rh_d61_90": 0.03
+    },
+    "error_analysis": {
+      "n": 468,
+      "underpredicted_n": 250,
+      "overpredicted_n": 218,
+      "mean_underprediction": 553.1911035832795,
+      "mean_overprediction": 704.9229794196211,
+      "abs_error_p50": 409.7969604472364,
+      "abs_error_p90": 1367.8882754333436,
+      "high_vs_low_error_profile": {
+        "high_error_decile": {
+          "hectares": 4.9,
+          "actual": 28810.1
+        },
+        "low_error_decile": {
+          "hectares": 2.7,
+          "actual": 15921.1
+        }
+      }
+    }
+  },
+  "per_ha": {
+    "best_model_by_cv": "LightGBM (Optuna)",
+    "test_metrics": {
+      "R2": 0.49552909269130185,
+      "RMSE": 209.8214916451859,
+      "MAE": 162.94020477539533,
+      "MAPE_%": 2.769115107902982
+    },
+    "shap_model": "LightGBM (Optuna)",
+    "shap_top_features": {
+      "hectares": 189.847,
+      "variety=ponmani": 12.181,
+      "variety=delux ponni": 8.262,
+      "soil_type=clay": 3.909,
+      "wind_kn_d1_30": 3.637,
+      "tmax_d61_90": 2.619,
+      "tmin_d1_30": 1.854,
+      "nursery_type=wet": 1.814,
+      "rain_d0_30_mm": 1.608,
+      "rh_d1_30": 0.961
+    },
+    "shap_top_source_variables_share_%": {
+      "hectares": 82.81,
+      "variety": 9.18,
+      "soil_type": 1.7,
+      "wind_kn_d1_30": 1.59,
+      "tmax_d61_90": 1.14,
+      "tmin_d1_30": 0.81,
+      "nursery_type": 0.79,
+      "rain_d0_30_mm": 0.7,
+      "rh_d1_30": 0.42,
+      "wind_dir_d1_30": 0.14
+    },
+    "error_analysis": {
+      "n": 468,
+      "underpredicted_n": 244,
+      "overpredicted_n": 224,
+      "mean_underprediction": 144.5244294700919,
+      "mean_overprediction": 183.00024573295792,
+      "abs_error_p50": 133.78873004630668,
+      "abs_error_p90": 320.67391479573416,
+      "high_vs_low_error_profile": {
+        "high_error_decile": {
+          "hectares": 4.1,
+          "actual": 5672.4
+        },
+        "low_error_decile": {
+          "hectares": 4.0,
+          "actual": 6020.4
+        }
+      }
+    }
+  }
+}

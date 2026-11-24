@@ -1,0 +1,10 @@
+{
+  "total": {
+    "target_column": "yield_kg",
+    "best_model_by_cv": "LightGBM (Optuna)"
+  },
+  "per_ha": {
+    "target_column": "yield_kg_per_ha",
+    "best_model_by_cv": "LightGBM (Optuna)"
+  }
+}

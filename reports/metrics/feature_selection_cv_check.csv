@@ -1,0 +1,5 @@
+target,feature_set,n_features,cv_R2,cv_RMSE
+total,all encoded features,69,0.9911,873.8117
+total,selected features,44,0.9911,873.8117
+per_ha,all encoded features,69,0.4501,212.8858
+per_ha,selected features,44,0.4501,212.8858
